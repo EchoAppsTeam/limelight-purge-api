@@ -1,0 +1,35 @@
+{
+  "name": "limelight-purge-api",
+  "description": "Limelight Purge REST API wrapper",
+  "version": "0.1.0",
+  "author": {
+    "name": "Echo",
+    "url": "http://aboutecho.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EchoAppsTeam/limelight-purge-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EchoAppsTeam/limelight-purge-api/issues"
+  },
+  "license": "Apache-2.0",
+  "main": "api",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "dependencies": {
+    "limelight-api": "~0.1.0"
+  },
+  "keywords": [
+    "Limelight",
+    "purge",
+    "REST",
+    "API",
+    "gruntplugin"
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "~0.10.0"
+  }
+}
