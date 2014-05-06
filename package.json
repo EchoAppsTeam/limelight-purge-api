@@ -19,7 +19,7 @@
     "node": ">=0.8"
   },
   "dependencies": {
-    "limelight-api": "~0.1.0"
+    "limelight-api": "~0.1.1"
   },
   "keywords": [
     "Limelight",
