@@ -3,16 +3,10 @@
 var RestAPI = require("limelight-api");
 
 var API = function(config) {
-	this.rest = new RestAPI({
-		"host": "control.llnw.com",
-		"name": "purge-api",
-		"version": "1",
-		"user": config.user,
-		"apiKey": config.apiKey,
-		"format": config.format,
-		"debug": config.debug,
-		"logger": config.logger
-	});
+	config.host = "control.llnw.com";
+	config.name = "purge-api";
+	config.version = "1";
+	this.rest = new RestAPI(config);
 };
 
 API.prototype.validateHostname = function(hostname) {
