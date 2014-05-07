@@ -1,7 +1,7 @@
 {
   "name": "limelight-purge-api",
   "description": "Limelight Purge REST API wrapper",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": {
     "name": "Echo",
     "url": "http://aboutecho.com"
@@ -16,10 +16,10 @@
   "license": "Apache-2.0",
   "main": "api",
   "engines": {
-    "node": ">=0.8"
+    "node": ">=0.10"
   },
   "dependencies": {
-    "limelight-api": "~0.1.1"
+    "limelight-api": "~0.1.2"
   },
   "keywords": [
     "Limelight",
