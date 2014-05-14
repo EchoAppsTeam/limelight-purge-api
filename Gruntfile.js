@@ -10,7 +10,7 @@ module.exports = function(grunt) {
 			"options": {
 				"jshintrc": ".jshintrc"
 			},
-			"all": ["Gruntfile.js"]
+			"all": ["Gruntfile.js", "api.js"]
                 }
 	});
 };
